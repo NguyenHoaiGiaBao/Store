@@ -1,0 +1,24 @@
+{
+  "name": "clothing-ecommerce-app",
+  "version": "1.0.0",
+  "description": "Frontend cho ứng dụng clothing-ecommerce-app",
+  "main": "src/main.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^1.8.3",
+    "gsap": "^3.12.7",
+    "clothing-ecommerce-app-frontend": "file:",
+    "vue": "^3.5.13",
+    "vue-router": "^3.5.4",
+    "vue-toast-notification": "^0.6.3",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
